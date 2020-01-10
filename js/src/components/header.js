@@ -1,14 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header(props) {
     return (
         <div className="header">
             <ul>
                 <li>
+                <Link to='/about'>
                 <img alt="avatar" src={props.avatar} />
+                </Link>
                 </li>
                 <li>
-                    <p>FFXIV App</p>
+                    <Link to='/'>FFXIV App</Link>
                 </li>
                 <li>
                     <p>{props.charName}</p>

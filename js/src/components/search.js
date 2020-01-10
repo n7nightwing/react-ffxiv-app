@@ -7,7 +7,7 @@ function Search(props) {
         return props.jobs.map((Job, index) => {
         return (
             <div key={index} className="newJob">
-                <span>{Job.Name}<p>{Job.Level}</p><br /></span>
+                <span>Class: {Job.Name}<p>Level: {Job.Level}</p><br /></span>
             </div>
             )
         })
