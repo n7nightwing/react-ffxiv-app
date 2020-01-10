@@ -7,7 +7,7 @@ function Header(props) {
             <ul>
                 <li>
                 <Link to='/about'>
-                <img alt="avatar" src={props.avatar} />
+                <img alt="about" src={props.avatar} />
                 </Link>
                 </li>
                 <li>

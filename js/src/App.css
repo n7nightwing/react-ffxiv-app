@@ -16,6 +16,11 @@ img {
   float: right;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .header {
   background-color: #282c34;
   max-height: 12vh;
@@ -25,6 +30,7 @@ img {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-decoration: none;
 }
 
 ul {
@@ -36,6 +42,7 @@ li {
   display: inline-flex;
   float: right;
   padding: 10px 12vw;
+  text-decoration: none;
 
 }
 span {
