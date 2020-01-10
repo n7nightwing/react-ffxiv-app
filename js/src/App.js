@@ -40,7 +40,7 @@ class App extends Component {
 
   getCharacterData(Id) {
     console.log(Id)
-    fetch('https://xivapi.com/character/8612301')
+    fetch(`https://xivapi.com/character/${this.state.lodestoneID}`)
     .then(results => {
       return results.json()})
       .then(data => {

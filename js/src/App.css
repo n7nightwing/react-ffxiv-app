@@ -1,8 +1,8 @@
 .Form {
-  padding: 20vh;
+  padding: 50vh;
   display: flex;
-  justify-content: space-around;
-  min-height: 30vh;
+  justify-content: Center;
+  min-height: 10vh;
 }
 .button {
   max-height: 4vh;

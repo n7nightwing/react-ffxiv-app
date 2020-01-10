@@ -21,8 +21,10 @@ import React from "react";
 //adding a listener for submit, which is triggering a callback function to search
 
 const Form = (props) => (
-    <form onSubmit={props.getCharacterCall}>
+    <form className="Form" onSubmit={props.getCharacterCall}>
+        <p>First Name</p>
         <input type="text" name="firstSearch" />
+        <p>Last Name</p>
         <input type="text" name="lastSearch" />
         <button>Search</button>
     </form>
